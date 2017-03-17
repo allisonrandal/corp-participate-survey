@@ -1,0 +1,40 @@
+code name,code description,format,valid range
+org.id,Participant’s employer (unique ID),text,
+role.bus,Business Development,multiple,1
+role.dev,Engineering/Development,multiple,2
+role.exec,Executive Leadership,multiple,3
+role.fin,Finance,multiple,4
+role.lgl,Legal,multiple,5
+role.mgmt,Management,multiple,6
+role.mkt,Marketing,multiple,7
+role.prod,Product Management,multiple,8
+role.sales,Sales,multiple,9
+role.strat,Strategy,multiple,10
+role.res,Research/Academic,multiple,11
+role.other,Open question,text,
+engage.inner,InnerSource,multiple,1
+engage.use,Use open source,multiple,2
+engage.dist,Deliver to customers,multiple,3
+engage.integrate,Integrate open source with proprietary,multiple,4
+engage.solo,"Single company, no external contributions",multiple,5
+engage.soloext,"Single company, with external contributions",multiple,6
+engage.active,Active external contributions,multiple,7
+engage.contrib,Contribute resources,multiple,8
+engage.colead,Participate as co-leaders,multiple,9
+engage.other,Open question,text,
+strategic,Company attitude to open source innovation,scale,1-5
+tracking,Company tracks trends,scale,1-5
+goals,Company shares product goals with projects,scale,1-5
+value.softint,Software integration,multiple,1
+value.hardint,Hardware integration,multiple,2
+value.support,Support,multiple,3
+value.service,Services,multiple,4
+value.xaas,Software as a Service,multiple,5
+value.improve,Improvements for customers,multiple,6
+value.cadence,Releases timed for customer needs,multiple,7
+value.expert,Domain expertise,multiple,8
+value.other,Open question,text,
+mindelta,Minimize proprietary changes,scale,1-5
+cop,Community of practice for open source,scale,1-5
+reward,Reward for individual reputation,scale,1-5
+comment,Open question,text,
