@@ -29,7 +29,8 @@ counts <- rbind(permindelta, perreward, percop, pergoals, pertracking, perstrate
 
 tcounts <- t(counts)
 rownames(tcounts) <- c("Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree")
-colnames(tcounts) <- c("Minimize\nDelta", "Reward\nIndividuals", "Apply\nKnowledge", "Share\nGoals", "Track\nTrends", "Strategic\nAdvantage")
+#colnames(tcounts) <- c("Minimize\nDelta", "Reward\nIndividuals", "Apply\nKnowledge", "Share\nGoals", "Track\nTrends", "Strategic\nAdvantage")
+colnames(tcounts) <- c("mindelta", "reward", "cop", "goals", "tracking", "strategic")
 
 print(tcounts)
 png(outFile, width=600)

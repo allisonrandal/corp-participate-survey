@@ -19,5 +19,6 @@ barplot(percentage,
     ylab="Percentage of respondents",
     ylim=c(0,100),
     col=brewer.pal(9,"Spectral"),
-    names.arg=c("InnerSource\n","Use\n","Deliver to\nCustomers","Integrate\nProprietary","No\nCommunity","Some\nCommunity","Active\nCommunity","Contribute\n","Co-lead\n")
+#    names.arg=c("InnerSource\n","Use\n","Deliver to\nCustomers","Integrate\nProprietary","No\nCommunity","Some\nCommunity","Active\nCommunity","Contribute\n","Co-lead\n")
+    names.arg=c("engage.\ninner","engage.\nuse","engage.\ndist","engage.\nintegrate","engage.\nsolo","engage.\nsoloext","engage.\nactive","engage.\ncontrib","engage.\ncolead")
    )

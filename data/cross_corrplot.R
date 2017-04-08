@@ -12,7 +12,7 @@ valuecols <- subset(survey,
     )
 
 # Change the column names
-names(valuecols) <- c('Software','Hardware','Support','Services','XaaS','Improve','Release','Expertise')
+#names(valuecols) <- c('Software','Hardware','Support','Services','XaaS','Improve','Release','Expertise')
 # Set all values to TRUE
 valuelogic <- (valuecols > 0)
 # Set NA to FALSE
@@ -25,7 +25,7 @@ engagecols <- subset(survey,
     )
 
 # Change the column names
-names(engagecols) <- c('InnerSource','Use','Deliver to Customers','Integrate Proprietary','No Community','Some Community','Active Community','Contribute','Co-lead')
+#names(engagecols) <- c('InnerSource','Use','Deliver to Customers','Integrate Proprietary','No Community','Some Community','Active Community','Contribute','Co-lead')
 # Set all values to TRUE
 engagelogic <- (engagecols > 0)
 # Set NA to FALSE
@@ -35,7 +35,8 @@ corrmatrix <- cor(engagelogic, valuelogic, method="kendall")
 #corrmatrix <- cor(valuelogic, engagelogic)
 print(corrmatrix)
 png(outFile)
-corrplot(corrmatrix, method='circle')
+#corrplot(corrmatrix, method='circle')
+corrplot(corrmatrix, method='number')
 
 # See https://cran.r-project.org/web/packages/corrplot/vignettes/corrplot-intro.html
 # and also http://www.sthda.com/english/wiki/correlation-matrix-a-quick-start-guide-to-analyze-format-and-visualize-a-correlation-matrix-using-r-software

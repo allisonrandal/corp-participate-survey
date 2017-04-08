@@ -18,7 +18,10 @@ png(outFile, width=800)
 barplot(percentage,
     ylab="Percentage of respondents",
     col=brewer.pal(9,"Spectral"),
-    names.arg=c("Software\nintegration","Hardware\nintegration","Support\n",
-                "Services\n","Software as\na Service","Improve\n",
-                "Release\ntiming","Domain\nexpertise")
+#    names.arg=c("Software\nintegration","Hardware\nintegration","Support\n",
+#                "Services\n","Software as\na Service","Improve\n",
+#                "Release\ntiming","Domain\nexpertise")
+    names.arg=c("value.\nsoftint","value.\nhardint","value.\nsupport",
+                "value.\nservice","value.\nxaas","value.\nimprove",
+                "value.\ncadence","value.\nexpert")
    )
